@@ -1,130 +1,79 @@
 .body{
-    display: flexbox;
-    flex-direction: column;
-    align-items: center;
+    margin: 0;
 }
 
-/* Cabecalho  */
+
+
+/* Cabecalho */
+
+.topo{
+    background-color: #838383;
+    height: 20px;
+}
 
 .cabecalho{
-    position:absolute;
-    display: flexbox;
-    flex-direction: row;
-    align-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 16px;
+
+
     
     
-    left: 10%;
-
-}
-.topo{   
-    position: absolute;
-    width: 1440px;
-    height: 49px;
-    left: 0px;
-    top: -12px;
-
-    background: #838383;
+    background-color: #EBE5E5;
 }
 
-.cabecalhoBackground{
-    position: absolute;
-    width: 1440px;
-    height: 175px;
-    left: 0px;
-    top: 37px;
+.menu{
+    /* menu 1 */
+    width: 65px;
+    height: 60px;
+    left: 24px;
+    top: 77px;
+}
 
-    background: #EBE5E5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+.icone-menu{
+    height: inherit;
 }
 
 .logo{
-    /* Logo Retrôbol 1 */
-    position: absolute;
-    width: 424px;
-    height: 424px;
-    left: 517px;
-    top: -45px;
+    height: inherit;
 
-    background: url(Logo-Retrôbol-1.png)
 }
 
-
-:hover.menu{
-    background-color:#838383;
-}
-.menu{
-    /* menu 1 */
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    height: 75.1px;
-    left: 24px;
-    top: 60px;
-    border: #EBE5E5;
-
-    background: url(menu-1.png);
-    mix-blend-mode: normal;
-}
-
-:hover.login{
-    background-color:#838383;
-    }
 .login{
-    
-    position: absolute;       
-    left: 1309px;
-    top: 35px;
-    background: url(user2-1.png);
+    width: 65px;
+    height: 60px;
+    background-color: #EBE5E5;
     border: #EBE5E5;
-    
 }
+
+.icone-login{
+    height: inherit;
+    width: fit-content;
+
+}
+
 
 
 /* Banner */
 
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-
-.slogan-background{
-    display: flexbox;
-    align-content: space-between;
-    position: relative;
-    width: 1440px;
-    height: 410px;
-    left: 179px;
-    top: 231px;
-
+    height: 350px;
     background: #858640;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.frase-slogan{
-    /* Venha conosco fazer parte desse clube dos bem vestidos! */
-    position: absolute;
-    width: 766px;
-    height: 194px;
-    left: 50px;
-
-    
-
+.banner-frase{
     font-family: 'SeoulHangang';
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 64px;
     text-align: center;
-
     color: #FFFFFF;
-    /* Note: backdrop-filter has minimal browser support */
-}
-
-.img-banner{
-    position: absolute;
-    width: 614px;
-    height: 412.72px;
-    left: 1013px;
-    top: 240px;
-
-    background: url(banner2-1.jpg);
-    opacity: 0.8;
-        
+    padding: 50px;
 }
