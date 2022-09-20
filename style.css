@@ -1,0 +1,130 @@
+.body{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabecalho  */
+
+.cabecalho{
+    position:absolute;
+    display: flexbox;
+    flex-direction: row;
+    align-content: space-between;
+    
+    
+    left: 10%;
+
+}
+.topo{   
+    position: absolute;
+    width: 1440px;
+    height: 49px;
+    left: 0px;
+    top: -12px;
+
+    background: #838383;
+}
+
+.cabecalhoBackground{
+    position: absolute;
+    width: 1440px;
+    height: 175px;
+    left: 0px;
+    top: 37px;
+
+    background: #EBE5E5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    /* Logo Retrôbol 1 */
+    position: absolute;
+    width: 424px;
+    height: 424px;
+    left: 517px;
+    top: -45px;
+
+    background: url(Logo-Retrôbol-1.png)
+}
+
+
+:hover.menu{
+    background-color:#838383;
+}
+.menu{
+    /* menu 1 */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    height: 75.1px;
+    left: 24px;
+    top: 60px;
+    border: #EBE5E5;
+
+    background: url(menu-1.png);
+    mix-blend-mode: normal;
+}
+
+:hover.login{
+    background-color:#838383;
+    }
+.login{
+    
+    position: absolute;       
+    left: 1309px;
+    top: 35px;
+    background: url(user2-1.png);
+    border: #EBE5E5;
+    
+}
+
+
+/* Banner */
+
+
+
+.slogan-background{
+    display: flexbox;
+    align-content: space-between;
+    position: relative;
+    width: 1440px;
+    height: 410px;
+    left: 179px;
+    top: 231px;
+
+    background: #858640;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.frase-slogan{
+    /* Venha conosco fazer parte desse clube dos bem vestidos! */
+    position: absolute;
+    width: 766px;
+    height: 194px;
+    left: 50px;
+
+    
+
+    font-family: 'SeoulHangang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #FFFFFF;
+    /* Note: backdrop-filter has minimal browser support */
+}
+
+.img-banner{
+    position: absolute;
+    width: 614px;
+    height: 412.72px;
+    left: 1013px;
+    top: 240px;
+
+    background: url(banner2-1.jpg);
+    opacity: 0.8;
+        
+}
